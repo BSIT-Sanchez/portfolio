@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import bcp from "../../Assets/Projects/bcpCourses.png";
+import sms from "../../Assets/Projects/sms.png";
+import Netflixo from "../../Assets/Projects/netflixo.png";
+import gym from "../../Assets/Projects/gym.png";
+import lms from "../../Assets/Projects/lms.png";
+import hotel from "../../Assets/Projects/hotel.png";
 
 function Projects() {
   return (
@@ -23,67 +23,66 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={gym}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="GenerationXgym"
+              description="GenerationXGym, we've revolutionized the fitness experience by leveraging cutting-edge technology and modern design. Built using ReactJS and styled with TailwindCSS, our platform offers a seamless, responsive, and visually stunning interface for fitness enthusiasts of all levels."
+              ghLink="https://github.com/BSIT-Sanchez/GenerationXGym"
+              demoLink="https://generationxgym.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={hotel}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="DineEase"
+              description="DineEase redefines the way you book your stay with a sleek, intuitive platform designed for a seamless reservation experience. Built with ReactJS and Next.js, and powered by Sanity.io, our application ensures fast, reliable, and dynamic performance for users seeking their perfect hotel accommodations."
+              ghLink="https://github.com/BSIT-Sanchez/DineEase"
+              demoLink="https://dine-ease.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Netflixo}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Netflixo"
+              description="Welcome to Netflixo, a next-generation streaming platform designed to bring you the best in entertainment with a sleek, modern interface. Inspired by Netflix and crafted using ReactJS and TailwindCSS, Netflixo offers a seamless, visually captivating experience that makes discovering and enjoying your favorite movies and shows easier than ever."
+              ghLink="https://github.com/BSIT-Sanchez/netflixoClient"
+              demoLink="https://netflixo-client.vercel.app/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={bcp}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Online-Courses"
+              description="Introducing our cutting-edge online courses platform, meticulously crafted with ReactJS and styled with TailwindCSS. This dynamic platform is designed to provide an exceptional learning experience, offering a wide range of courses that you can access from anywhere, at any time."
+              ghLink="https://github.com/BSIT-Sanchez/Online-Courses"
+              demoLink="https://bsit-sanchez.github.io/Online-Courses/home.html"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={lms}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="LMS"
+              description="We are excited to introduce our comprehensive Learning Management System (LMS) and Student Management System (SMS), built with the robust MERN stack. Currently under development, this platform aims to streamline and enhance the educational experience for both administrators and students."
+              ghLink="https://github.com/BSIT-Sanchez/LMS-Projects/tree/main/LMS"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={sms}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="SMS"
+              description="We are excited to introduce our comprehensive Student Management System (SMS) and Learning Management System (LMS), built with the robust MERN stack. Currently under development, this platform aims to streamline and enhance the educational experience for both administrators and students."
+              ghLink="https://github.com/BSIT-Sanchez/LMS-Projects/tree/main/SMS"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
